@@ -5,7 +5,7 @@ include "../config/koneksi.php";
 $NamaUser = $_POST['nm_user'];
 $Username = $_POST['username'];
 $Password = md5($_POST['password']);
-$Role = ($_POST['role']);
+$Role = "Kasir";
 
 mysqli_query($koneksi, "INSERT INTO tb_user values ('', '$NamaUser','$Username','$Password','$Role')");
 
