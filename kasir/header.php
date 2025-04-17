@@ -148,6 +148,7 @@ if ($_SESSION['role'] = "") {
           <ul class="treeview-menu">
             <li><a href="pelanggan_data.php"><i class="fa fa-circle-o"></i>Data Pelanggan</a></li>
             <li><a href="produk_data.php"><i class="fa fa-circle-o"></i>Data Produk</a></li>
+            <li><a href="kasir_data.php"><i class="fa fa-circle-o"></i>Data Kasir</a></li>
           </ul>
         </li>
         <li class="treeview">

@@ -1,7 +1,7 @@
 <?php
 include "../config/koneksi.php";
 
-//Menangkap PelangganID Dari URL
+//Menangkap ProdukID Dari URL
 $ProdukID = $_GET['ProdukID'];
 
 //Query untuk menghapus data
